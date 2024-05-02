@@ -59,35 +59,38 @@
 </template>
 
 <script>
-import SearchBar from './SearchBar.vue';
-import UserButton from './UserButton.vue';
+import SearchBar from './SearchBar.vue'
+import UserButton from './UserButton.vue'
 export default {
-  components: {SearchBar, UserButton},
+  components: { SearchBar, UserButton },
   data() {
     return {
       dropdownlist: [
         {
           menuname: '审计优选',
           itemlist: [
-            {itemname: '精品集萃', url: '/1'},
-            {itemname: '审计精鉴', url: ''},
-            {itemname: '审计故事', url: '/2'},
-            {itemname: '政策法规', url: '/4'},
-          ],
+            { itemname: '精品集萃', url: '/1' },
+            { itemname: '审计精鉴', url: '' },
+            { itemname: '审计故事', url: '/2' },
+            { itemname: '政策法规', url: '/4' }
+          ]
         },
         {
           menuname: '审计交流',
           itemlist: [
-            {itemname: '审艺购坊', url: '/3'},
-            {itemname: '创意激扬', url: '#'},
-            {itemname: '审计心语', url: '#'},
-          ],
+            { itemname: '审艺购坊', url: '/3' },
+            { itemname: '创意激扬', url: '#' },
+            { itemname: '审计心语', url: '#' }
+          ]
         },
-        {menuname: '审计书海', itemlist: [{itemname: '书中审计', url: '/5'}]},
-      ],
-    };
-  },
-};
+        {
+          menuname: '审计书海',
+          itemlist: [{ itemname: '书中审计', url: '/5' }]
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style scoped></style>

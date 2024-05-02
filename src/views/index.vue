@@ -1,10 +1,9 @@
-<!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div>nihao</div>
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
 <style></style>

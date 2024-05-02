@@ -1,4 +1,3 @@
-<!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div class="content-container p-2 px-5">
     <goods-list />
@@ -6,10 +5,10 @@
 </template>
 
 <script>
-import GoodsList from '@/components/GoodsList.vue';
+import GoodsList from '@/components/GoodsList.vue'
 export default {
-  components: {GoodsList},
-};
+  components: { GoodsList }
+}
 </script>
 <style scoped>
 .content-container img {

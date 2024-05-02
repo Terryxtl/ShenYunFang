@@ -1,8 +1,7 @@
-<!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div class="m-2">
+  <div class="m-2 px-4">
     <div class="row px-2">
-      <div class="shadow-sm col bg-light bg-gradient mx-1 mt-2 p-2 rounded-2">
+      <div class="shadow-sm col bg-light bg-gradient mx-3 mt-2 p-2 rounded-2">
         <h3><strong>东方金钰造价审计案例</strong></h3>
         <p>
           背景:东方金钰股份有限公司,是我国第一家翡翠珠宝行业的上市公司,在行业内有较高的知名度,曾有“翡翠第一股”的美誉。然而在2019年因涉嫌违法违规被证监会调查,于2021年1月份被终止上市。和瑞幸咖啡一样都是虚构收入,看起来也有着同样的命运,但是造假手段和资金闭环方式各有不同,东方金钰利用其行业优势,存货是翡翠原石等难以评估的特点来进行虚增资产。
@@ -79,7 +78,7 @@
 
         <p>东方金钰面临的舞弊风险因素包括动机或压力、机会以及态度或借口。</p>
       </div>
-      <div class="shadow-sm col bg-light bg-gradient mx-1 mt-2 p-2 rounded-2">
+      <div class="shadow-sm col bg-light bg-gradient mx-3 mt-2 p-2 rounded-2">
         <h3><strong>康得新造假百亿审计案例</strong></h3>
         <p>
           背景:康得新成立于2001年,江苏省张家港,以KDX新材料、智能显示、碳纤维为主营业务,聚焦消费、交通、新兴行业、新能源、医疗、
@@ -151,7 +150,7 @@
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
 <style scoped>

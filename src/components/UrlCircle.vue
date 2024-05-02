@@ -14,7 +14,7 @@
 <script>
 export default {
   props: {
-    itemList: Array,
+    itemList: Array
   },
   data() {
     return {
@@ -22,27 +22,27 @@ export default {
         {
           url: '/1',
           imgUrl: 'src/assets/image/0.1.jpg',
-          title: '精品集萃',
+          title: '精品集萃'
         },
         {
           url: '/2',
           imgUrl: 'src/assets/image/0.2.jpg',
-          title: '审计精鉴',
+          title: '审计精鉴'
         },
-        {url: '#', imgUrl: 'src/assets/image/0.3.jpg', title: '审计优选'},
-        {url: '#', imgUrl: 'src/assets/image/0.4.jpg', title: '政策法规'},
-        {url: '#', imgUrl: 'src/assets/image/0.5.jpg', title: '审计交流'},
-        {url: '#', imgUrl: 'src/assets/image/0.6.jpg', title: '创意激扬'},
-        {url: '#', imgUrl: 'src/assets/image/0.7.jpg', title: '审计心语'},
+        { url: '#', imgUrl: 'src/assets/image/0.3.jpg', title: '审计优选' },
+        { url: '#', imgUrl: 'src/assets/image/0.4.jpg', title: '政策法规' },
+        { url: '#', imgUrl: 'src/assets/image/0.5.jpg', title: '审计交流' },
+        { url: '#', imgUrl: 'src/assets/image/0.6.jpg', title: '创意激扬' },
+        { url: '#', imgUrl: 'src/assets/image/0.7.jpg', title: '审计心语' },
         {
           url: '/5',
           imgUrl: 'src/assets/image/0.8.jpg',
-          title: '审计书海',
-        },
-      ],
-    };
-  },
-};
+          title: '审计书海'
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style scoped>
