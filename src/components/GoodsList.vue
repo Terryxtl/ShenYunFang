@@ -1,24 +1,32 @@
 <template>
-  <div
-    class="row-inline d-flex align-items-center mb-3"
-    v-for="(item, index) in itemList"
-    :key="index"
-  >
-    <div class="col-4 text-end pe-5">
-      <h1>{{ item.name }}</h1>
+  <div class="row">
+    <div class="col-3 d-flex position-fixed">
+      <ul class="">
+        <li v-for="(item, index) in itemList" :key="index">
+          <a :href="'#' + item.name">{{ item.name }}</a>
+        </li>
+      </ul>
     </div>
-    <div class="row row-inline row-cols-2">
-      <div class="col" v-for="(img, imgIndex) in item.imgList" :key="imgIndex">
-        <img class="img-thumbnail" :src="img.imgUrl" />
+    <div class="col">
+      <div
+        class="row row-cols-2"
+        v-for="(item, index) in itemList"
+        :key="index"
+      >
+        <div
+          class="col"
+          v-for="(img, imgIndex) in item.imgList"
+          :key="imgIndex"
+          v-bind:id="item.name"
+        >
+          <img class="img-thumbnail" :src="img.imgUrl" />
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-function getAssetsImages(name) {
-  return new URL(`/src/assets/images/${name}`, import.meta.url).href
-}
 export default {
   data() {
     return {
@@ -26,8 +34,8 @@ export default {
         {
           name: '亚克力挂件',
           imgList: [
-            { imgUrl: getAssetsImages('3.1.jpg') },
-            { imgUrl: '@/assets/image/3.2.jpg' }
+            { imgUrl: 'src/assets/image/3.1.jpg' },
+            { imgUrl: 'src/assets/image/3.2.jpg' }
           ]
         },
         {
@@ -59,4 +67,8 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+ul {
+  list-style: none;
+}
+</style>

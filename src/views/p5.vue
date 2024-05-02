@@ -5,7 +5,7 @@
       v-for="item in booklist"
       :key="item.bookname"
     >
-      <a :href="item.url"><img v-bind:src="item.img" /></a>
+      <a :href="item.url" target="_blank"><img v-bind:src="item.img" /></a>
       <h4>
         <strong>{{ item.bookname }}</strong>
       </h4>

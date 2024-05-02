@@ -19,7 +19,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
             <router-link aria-current="page" class="nav-link" to="/"
               >首页</router-link
@@ -52,7 +52,18 @@
           </li>
         </ul>
         <search-bar />
-        <user-button />
+        <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
+          <li class="nav-item dropdown py-2 py-md-1 col-12 col-md-auto">
+            <user-button />
+          </li>
+          <li class="nav-item py-2 py-md-1 col-12 col-md-auto">
+            <div class="vr d-none d-md-flex h-100 mx-md-2 text-black-50"></div>
+            <hr class="d-md-none my-2 text-black-50" />
+          </li>
+          <li class="nav-item py-2 py-md-1 col-12 col-md-auto">
+            <to-github />
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
@@ -60,9 +71,10 @@
 
 <script>
 import SearchBar from './SearchBar.vue'
+import ToGithub from './ToGithub.vue'
 import UserButton from './UserButton.vue'
 export default {
-  components: { SearchBar, UserButton },
+  components: { SearchBar, UserButton, ToGithub },
   data() {
     return {
       dropdownlist: [

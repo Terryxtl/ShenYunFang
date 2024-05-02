@@ -1,7 +1,7 @@
 <template>
   <div class="video-container rounded border border-dark-subtle">
     <video class="p-2" poster="@/assets/image/video_poster.jpg">
-      <source src="@/assets/video/1.mp4" type="video" />
+      <source src="../assets/video/1.mp4" type="video" />
     </video>
   </div>
 </template>
