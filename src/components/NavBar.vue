@@ -1,7 +1,5 @@
 <template>
-  <nav
-    class="shadow-sm navbar navbar-expand-md bg-body-tertiary px-5 sticky-top"
-  >
+  <nav class="shadow-sm navbar navbar-expand-md bg-body-tertiary px-5 -top">
     <div class="container-fluid">
       <router-link class="navbar-brand" to="/">
         <img src="@/assets/logo.png" width="32" />
@@ -51,16 +49,20 @@
             </ul>
           </li>
         </ul>
-        <search-bar />
+        <ul class="navbar-nav flex-row flex-wrap mx-md-auto">
+          <li class="nav-item py-1 py-md-1 col-12 col-md-auto">
+            <search-bar />
+          </li>
+        </ul>
         <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
-          <li class="nav-item dropdown py-2 py-md-1 col-12 col-md-auto">
+          <li class="nav-item dropdown py-1 py-md-1 col-12 col-md-auto">
             <user-button />
           </li>
-          <li class="nav-item py-2 py-md-1 col-12 col-md-auto">
+          <li class="nav-item py-1 py-md-1 col-12 col-md-auto">
             <div class="vr d-none d-md-flex h-100 mx-md-2 text-black-50"></div>
             <hr class="d-md-none my-2 text-black-50" />
           </li>
-          <li class="nav-item py-2 py-md-1 col-12 col-md-auto">
+          <li class="nav-item py-1 py-md-1 col-12 col-md-auto">
             <to-github />
           </li>
         </ul>

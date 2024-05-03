@@ -1,6 +1,6 @@
 <template>
   <div>
-    <form class="d-flex shadow-sm">
+    <form class="d-flex">
       <input
         type="text"
         class="form-control"

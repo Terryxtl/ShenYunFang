@@ -1,9 +1,13 @@
 <template>
-  <div class="row mx-auto">
-    <div class="col-md d-flex align-items-center">
-      <video-container />
+  <div class="container-fluid">
+    <div class="row vh-100">
+      <div class="col-md d-flex align-items-center justify-content-center">
+        <video-container />
+      </div>
+      <div class="col-md d-flex align-items-center justify-content-center">
+        <url-circle />
+      </div>
     </div>
-    <div class="col-md d-flex align-items-center"><url-circle /></div>
   </div>
 </template>
 
@@ -16,7 +20,7 @@ export default {
 </script>
 
 <style scoped>
-.container {
-  height: 100%;
+.row.d-flex {
+  height: 1280px;
 }
 </style>
