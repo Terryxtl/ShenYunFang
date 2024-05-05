@@ -1,8 +1,10 @@
 <template>
-  <div class="video-container rounded border border-dark-subtle">
-    <video class="p-2" poster="@/assets/image/video_poster.jpg">
-      <source src="../assets/video/1.mp4" type="video" />
-    </video>
+  <div class="video-container rounded border border-2">
+    <video
+      src="../assets/video/1.mp4"
+      class="object-fit-scale"
+      poster="@/assets/image/video_poster.jpg"
+    ></video>
   </div>
 </template>
 
@@ -10,10 +12,4 @@
 export default {}
 </script>
 
-<style scoped>
-video {
-  max-width: 100%;
-  justify-content: center;
-  align-content: center;
-}
-</style>
+<style scoped></style>

@@ -1,7 +1,9 @@
 <template>
   <div class="m-2 px-4">
     <div class="row px-2">
-      <div class="shadow-sm col bg-light bg-gradient mx-3 mt-2 p-2 rounded-2">
+      <div
+        class="shadow-sm col-md bg-light bg-gradient mx-3 mt-2 p-4 rounded-2"
+      >
         <h3><strong>东方金钰造价审计案例</strong></h3>
         <p>
           背景:东方金钰股份有限公司,是我国第一家翡翠珠宝行业的上市公司,在行业内有较高的知名度,曾有“翡翠第一股”的美誉。然而在2019年因涉嫌违法违规被证监会调查,于2021年1月份被终止上市。和瑞幸咖啡一样都是虚构收入,看起来也有着同样的命运,但是造假手段和资金闭环方式各有不同,东方金钰利用其行业优势,存货是翡翠原石等难以评估的特点来进行虚增资产。
@@ -21,12 +23,16 @@
 
         <p>迹象 典型案例</p>
         <div style="text-align: center">
-          <img src="@/assets/image/2.2.jpg" alt="典型案例图示" />
+          <img
+            src="@/assets/image/2.1.jpg"
+            class="img-fluid"
+            alt="典型案例图示"
+          />
         </div>
         <h6><strong>虚构收入</strong></h6>
         <ul>
-          <li onclick="toggleDetails('item1')">销售客户方面异常</li>
-          <div id="item1" style="margin-left: 20px">
+          <li>销售客户方面异常</li>
+          <div>
             <ul>
               <li>销售情况与客户所处行业状况不符</li>
               <li>
@@ -42,8 +48,8 @@
             </ul>
           </div>
 
-          <li onclick="toggleDetails('item2')">销售交易方面异常</li>
-          <div id="item2" style="margin-left: 20px">
+          <li>销售交易方面异常</li>
+          <div>
             <ul>
               <li>在临近期末时发生了大量或大额的交易</li>
               <li>
@@ -53,8 +59,8 @@
               <li>已经销售的商品在期后有大量退回</li>
             </ul>
           </div>
-          <li onclick="toggleDetails('item3')">销售合同、单据异常</li>
-          <div id="item3" style="margin-left: 20px">
+          <li>销售合同、单据异常</li>
+          <div>
             <ul>
               <li>
                 销售合同未签字盖章,或者销售合同上加盖的公章并不属于合同所指定的客户
@@ -78,7 +84,9 @@
 
         <p>东方金钰面临的舞弊风险因素包括动机或压力、机会以及态度或借口。</p>
       </div>
-      <div class="shadow-sm col bg-light bg-gradient mx-3 mt-2 p-2 rounded-2">
+      <div
+        class="shadow-sm col-md bg-light bg-gradient mx-3 mt-2 p-4 rounded-2"
+      >
         <h3><strong>康得新造假百亿审计案例</strong></h3>
         <p>
           背景:康得新成立于2001年,江苏省张家港,以KDX新材料、智能显示、碳纤维为主营业务,聚焦消费、交通、新兴行业、新能源、医疗、
@@ -111,24 +119,24 @@
 
         <h6><strong>虚构营业收入</strong></h6>
         <ul>
-          <li onclick="toggleDetails('item4')">合同造假</li>
-          <div id="item4" style="margin-left: 20px">
+          <li>合同造假</li>
+          <div>
             <ul>
               <li>
                 康得新与虚假外销15家客户的合同系自行制作,客户签名系康得新员工自行签署
               </li>
             </ul>
           </div>
-          <li onclick="toggleDetails('item5')">发出商品替换</li>
-          <div id="item5" style="margin-left: 20px">
+          <li>发出商品替换</li>
+          <div>
             <ul>
               <li>
                 以PET膜冒充光学膜装箱报关,而PET膜价值不高,以低值产品代替高价值产品。真实货运,真实报关之后直接丢弃货物
               </li>
             </ul>
           </div>
-          <li onclick="toggleDetails('item6')">资金回笼造假</li>
-          <div id="item6" style="margin-left: 20px">
+          <li>资金回笼造假</li>
+          <div>
             <ul>
               <li>
                 康得新将募集资金以支付设备款的名义转给供应商,转出募集资金经过多道流转后,转到15家外销客户账户中,最后这些客户以销售回款的形式转回康得新。而且为了掩盖资金突击回笼的迹象,特意提前还款

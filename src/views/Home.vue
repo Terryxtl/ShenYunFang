@@ -21,6 +21,6 @@ export default {
 
 <style scoped>
 .row.d-flex {
-  height: 1280px;
+  max-height: 100%;
 }
 </style>
