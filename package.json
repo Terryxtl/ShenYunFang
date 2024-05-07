@@ -26,6 +26,11 @@
     "eslint-plugin-vue": "^9.23.0",
     "prettier": "^3.2.5",
     "vite": "^5.2.8",
-    "husky": "^8.0.0"
+    "husky": "^8.0.0",
+    "@types/bun": "latest"
+  },
+  "module": "index.ts",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
   }
 }

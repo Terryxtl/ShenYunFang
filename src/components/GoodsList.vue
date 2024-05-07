@@ -34,31 +34,31 @@ export default {
         {
           name: '亚克力挂件',
           imgList: [
-            { imgUrl: 'src/assets/image/3.1.jpg' },
-            { imgUrl: 'src/assets/image/3.2.jpg' }
+            { imgUrl: 'src/assets/image/3.1.webp' },
+            { imgUrl: 'src/assets/image/3.2.webp' }
           ]
         },
         {
           name: '贴纸',
           imgList: [
-            { imgUrl: 'src/assets/image/3.3.jpg' },
-            { imgUrl: 'src/assets/image/3.4.jpg' }
+            { imgUrl: 'src/assets/image/3.3.webp' },
+            { imgUrl: 'src/assets/image/3.4.webp' }
           ]
         },
         {
           name: '纸胶带',
           imgList: [
-            { imgUrl: 'src/assets/image/3.5.jpg' },
-            { imgUrl: 'src/assets/image/3.6.jpg' }
+            { imgUrl: 'src/assets/image/3.5.webp' },
+            { imgUrl: 'src/assets/image/3.6.webp' }
           ]
         },
         {
           name: '抱枕',
           imgList: [
-            { imgUrl: 'src/assets/image/3.7.jpg' },
-            { imgUrl: 'src/assets/image/3.8.jpg' },
-            { imgUrl: 'src/assets/image/3.9.jpg' },
-            { imgUrl: 'src/assets/image/3.10.jpg' }
+            { imgUrl: 'src/assets/image/3.7.webp' },
+            { imgUrl: 'src/assets/image/3.8.webp' },
+            { imgUrl: 'src/assets/image/3.9.webp' },
+            { imgUrl: 'src/assets/image/3.10.webp' }
           ]
         }
       ]

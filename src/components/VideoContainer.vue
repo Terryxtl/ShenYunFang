@@ -3,7 +3,7 @@
     <video
       src="../assets/video/1.mp4"
       class="object-fit-scale"
-      poster="@/assets/image/video_poster.jpg"
+      poster="@/assets/image/video_poster.webp"
     ></video>
   </div>
 </template>
