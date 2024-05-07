@@ -24,7 +24,7 @@
         <p>迹象 典型案例</p>
         <div style="text-align: center">
           <img
-            src="@/assets/image/2.1.jpg"
+            src="@/assets/image/2.1.webp"
             class="img-fluid"
             alt="典型案例图示"
           />

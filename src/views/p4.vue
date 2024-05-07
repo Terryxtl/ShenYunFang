@@ -3,7 +3,7 @@
     <div class="text-content">
       <div class="image-row">
         <img
-          src="@/assets/image/4.4.jpg"
+          src="@/assets/image/4.4.webp"
           alt="Top Image"
           class="img-thumbnail"
           style="
@@ -14,7 +14,7 @@
           "
         />
         <img
-          src="@/assets/image/4.3.jpg"
+          src="@/assets/image/4.3.webp"
           alt="Top Image"
           class="img-thumbnail"
           style="
@@ -55,12 +55,12 @@
     </div>
     <div class="image-container">
       <img
-        src="@/assets/image/4.1.jpg"
+        src="@/assets/image/4.1.webp"
         alt="First Image"
         style="margin-top: 10px"
       />
       <p id="image-description">宪法</p>
-      <img src="@/assets/image/4.2.jpg" alt="Second Image" />
+      <img src="@/assets/image/4.2.webp" alt="Second Image" />
       <p id="image-description1">审计法</p>
     </div>
   </div>

@@ -13,8 +13,8 @@
             </div>
           </div>
           <div class="col">
-            <img class="w-50" src="@/assets/image/1.1.jpg" />
-            <img class="w-50" src="@/assets/image/1.2.jpg" />
+            <img class="w-50" src="@/assets/image/1.1.webp" />
+            <img class="w-50" src="@/assets/image/1.2.webp" />
           </div>
         </div>
         <div class="row align-items-center mb-2">
@@ -27,8 +27,8 @@
             </div>
           </div>
           <div class="col">
-            <img class="w-50" src="@/assets/image/1.4.jpg" />
-            <img class="w-50" src="@/assets/image/1.3.jpg" />
+            <img class="w-50" src="@/assets/image/1.4.webp" />
+            <img class="w-50" src="@/assets/image/1.3.webp" />
           </div>
         </div>
       </div>
@@ -46,7 +46,7 @@
           <div class="col">
             <img
               class="img-thumbnail rounded-5 p-3"
-              src="@/assets/image/1.5.jpg"
+              src="@/assets/image/1.5.webp"
             />
           </div>
         </div>
@@ -62,7 +62,7 @@
           <div class="col">
             <img
               class="img-thumbnail rounded-5 p-3"
-              src="@/assets/image/1.6.jpg"
+              src="@/assets/image/1.6.webp"
             />
           </div>
         </div>
