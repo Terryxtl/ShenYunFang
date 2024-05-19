@@ -5,7 +5,7 @@
       v-for="item in booklist"
       :key="item.bookname"
     >
-      <a :href="item.url" target="_blank"><img v-bind:src="item.img" /></a>
+      <a :href="item.url" target="_blank"><img :src="item.img" /></a>
       <h4>
         <strong>{{ item.bookname }}</strong>
       </h4>
@@ -22,7 +22,7 @@ export default {
       booklist: [
         {
           url: 'https://book.douban.com/subject/2275826/',
-          img: 'src/assets/image/5.2.webp',
+          img: '/image/5.2.webp',
           bookname: '《蒙哥马利审计学》',
           author: '(美)文森特·M·奥莱利',
           translator: '刘霄仑,陈关亭',
@@ -31,7 +31,7 @@ export default {
         },
         {
           url: 'https://book.douban.com/subject/35069157/',
-          img: 'src/assets/image/5.3.webp',
+          img: '/image/5.3.webp',
           bookname: '《审计简史》',
           author: '德里克·马修斯',
           translator: '周华/莫彩华',
@@ -40,7 +40,7 @@ export default {
         },
         {
           url: 'https://book.douban.com/subject/26746460/',
-          img: 'src/assets/image/5.1.webp',
+          img: '/image/5.1.webp',
           bookname: '《让数字说话：审计,就这么简单》',
           author: '孙含晖、王苏颖、阎歌',
           bookinfo:

@@ -2,7 +2,7 @@
   <nav class="shadow-sm navbar navbar-expand-md bg-body-tertiary px-5 -top">
     <div class="container-fluid">
       <router-link class="navbar-brand" to="/">
-        <img src="@/assets/logo.png" width="32" />
+        <img src="/logo.png" width="32" />
         <strong class="mx-1">审韵坊</strong>
       </router-link>
       <button

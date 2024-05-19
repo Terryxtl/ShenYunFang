@@ -1,9 +1,9 @@
 <template>
   <div class="video-container rounded border border-2">
     <video
-      src="../assets/video/1.mp4"
+      src="/video/1.mp4"
       class="object-fit-scale"
-      poster="@/assets/image/video_poster.webp"
+      poster="/image/video_poster.webp"
     ></video>
   </div>
 </template>

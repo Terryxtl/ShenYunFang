@@ -21,22 +21,22 @@ export default {
       itemlist: [
         {
           url: '/1',
-          imgUrl: 'src/assets/image/0.1.webp',
+          imgUrl: '/image/0.1.webp',
           title: '精品集萃'
         },
         {
           url: '/2',
-          imgUrl: 'src/assets/image/0.2.webp',
+          imgUrl: '/image/0.2.webp',
           title: '审计精鉴'
         },
-        { url: '#', imgUrl: 'src/assets/image/0.3.webp', title: '审计优选' },
-        { url: '#', imgUrl: 'src/assets/image/0.4.webp', title: '政策法规' },
-        { url: '#', imgUrl: 'src/assets/image/0.5.webp', title: '审计交流' },
-        { url: '#', imgUrl: 'src/assets/image/0.6.webp', title: '创意激扬' },
-        { url: '#', imgUrl: 'src/assets/image/0.7.webp', title: '审计心语' },
+        { url: '#', imgUrl: '/image/0.3.webp', title: '审计优选' },
+        { url: '#', imgUrl: '/image/0.4.webp', title: '政策法规' },
+        { url: '#', imgUrl: '/image/0.5.webp', title: '审计交流' },
+        { url: '#', imgUrl: '/image/0.6.webp', title: '创意激扬' },
+        { url: '#', imgUrl: '/image/0.7.webp', title: '审计心语' },
         {
           url: '/5',
-          imgUrl: 'src/assets/image/0.8.webp',
+          imgUrl: '/image/0.8.webp',
           title: '审计书海'
         }
       ]
