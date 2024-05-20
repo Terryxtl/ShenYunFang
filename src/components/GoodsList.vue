@@ -1,6 +1,6 @@
 <template>
   <div class="row">
-    <div class="col-3 d-flex position-fixed">
+    <div class="col-3 position-fixed">
       <ul class="">
         <li v-for="(item, index) in itemList" :key="index">
           <a :href="'#' + item.name">{{ item.name }}</a>
@@ -17,9 +17,9 @@
           class="col"
           v-for="(img, imgIndex) in item.imgList"
           :key="imgIndex"
-          v-bind:id="item.name"
+          :id="item.name"
         >
-          <img class="img-thumbnail" :src="img.imgUrl" />
+          <img class="img-thumbnail" :src="img.imgUrl" loading="lazy" />
         </div>
       </div>
     </div>

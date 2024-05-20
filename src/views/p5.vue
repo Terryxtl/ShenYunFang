@@ -5,7 +5,9 @@
       v-for="item in booklist"
       :key="item.bookname"
     >
-      <a :href="item.url" target="_blank"><img :src="item.img" /></a>
+      <a :href="item.url" target="_blank"
+        ><img :src="item.img" loading="lazy"
+      /></a>
       <h4>
         <strong>{{ item.bookname }}</strong>
       </h4>
