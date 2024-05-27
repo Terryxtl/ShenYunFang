@@ -1,6 +1,6 @@
 <template>
-  <div class="UrlCircle mx-1">
-    <div class="square" v-for="item in itemlist" :key="item.title">
+  <div class="mx-1 row row-cols-4 row-md-inline g-4 fs-3">
+    <div class="col text-center" v-for="item in itemlist" :key="item.title">
       <router-link :to="item.url">
         <img class="shadow-sm" :src="item.imgUrl" />
         <p>
@@ -46,14 +46,6 @@ export default {
 </script>
 
 <style scoped>
-.square {
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  position: relative;
-}
-
 img {
   width: 100%;
   height: auto;
@@ -61,17 +53,7 @@ img {
 }
 
 a {
-  font-size: 1.25em;
-  position: relative;
-  bottom: -35px;
   text-decoration: none;
   color: black;
-}
-
-.UrlCircle {
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-columns: repeat(4, 0.25fr);
-  gap: 4%;
 }
 </style>

@@ -1,8 +1,8 @@
 <template>
-  <div class="video-container rounded border border-2">
+  <div class="video-container">
     <video
       src="/video/1.mp4"
-      class="object-fit-scale"
+      class="p-5 img-fluid"
       poster="/image/video_poster.webp"
     ></video>
   </div>

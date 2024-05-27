@@ -1,5 +1,7 @@
 <template>
-  <nav class="shadow-sm navbar navbar-expand-md bg-body-tertiary px-5 -top">
+  <nav
+    class="shadow-sm navbar navbar-expand-md bg-body-tertiary px-5 sticky-top"
+  >
     <div class="container-fluid">
       <router-link class="navbar-brand" to="/">
         <img src="/logo.png" width="32" />
